@@ -30,3 +30,5 @@ nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 
+let g:UltiSnipsEditSplit = 'vertical'
+let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
